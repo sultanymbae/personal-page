@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women.kg | AUCA Student Platform</title>
+  <meta name="description" content="A platform for empowering women students at AUCA through stories, events, and resources.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Women<span>.kg</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#events">Opportunities</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge">AUCA Community</div>
+        <h1 class="hero-title">Empowering <span class="text-gradient">Women</span>, <br>Shaping the Future.</h1>
+        <p class="hero-desc">Join the vibrant network of women leaders, innovators, and creators at AUCA. Discover, share, and grow together.</p>
+        <div class="hero-actions">
+          <a href="#community" class="btn btn-primary">Join Platform</a>
+          <a href="#events" class="btn btn-secondary">Explore Events</a>
+        </div>
+      </div>
+      
+      <div class="hero-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Women collaborating">
+        <div class="floating-card">
+          <i class="fas fa-users text-primary" style="font-size: 2rem;"></i>
+          <div>
+            <div class="stat-num">500+</div>
+            <div class="stat-label">Active Members</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="About Women.kg" style="width: 100%; height: auto; border-radius: 24px;">
+      </div>
+      <div>
+        <div class="badge">Who We Are</div>
+        <h2 class="section-title">A Safe Space for <span class="text-primary">Growth</span></h2>
+        <p class="section-subtitle">Women.kg was built by students, for students. We provide resources, mentorship, and a platform for voices to be heard.</p>
+        
+        <div class="about-features">
+          <div class="feature-box">
+            <i class="fas fa-book-reader"></i>
+            <h3>Learn</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Access curated educational resources.</p>
+          </div>
+          <div class="feature-box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Share</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Tell your story to our community.</p>
+          </div>
+          <div class="feature-box">
+            <i class="fas fa-hands-helping"></i>
+            <h3>Connect</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Network with inspiring peers.</p>
+          </div>
+          <div class="feature-box">
+            <i class="fas fa-rocket"></i>
+            <h3>Grow</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Find career-changing opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Blog Posts (Carousel) -->
+  <section class="section" id="blog" style="background: var(--bg-surface-elevated)">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem;">
+        <div>
+          <div class="badge">Latest Insights</div>
+          <h2 class="section-title">Featured Stories</h2>
+        </div>
+        <div class="carousel-controls">
+          <button class="control-btn" id="prev-btn" aria-label="Previous Post"><i class="fas fa-arrow-left"></i></button>
+          <button class="control-btn" id="next-btn" aria-label="Next Post"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+          <!-- Slide 1 -->
+          <article class="card carousel-slide">
+            <img class="card-image" src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tech Seminar">
+            <div class="card-content">
+              <div class="category-tag">Technology</div>
+              <h3 style="margin-bottom: 10px; font-size: 1.25rem;">Navigating AI as a Female Engineer</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">By Aida M. - Read time: 5 mins</p>
+            </div>
+          </article>
+          <!-- Slide 2 -->
+          <article class="card carousel-slide">
+            <img class="card-image" src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Leadership">
+            <div class="card-content">
+              <div class="category-tag">Leadership</div>
+              <h3 style="margin-bottom: 10px; font-size: 1.25rem;">Breaking the Glass Ceiling in Startups</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">By Nargiza T. - Read time: 8 mins</p>
+            </div>
+          </article>
+          <!-- Slide 3 -->
+          <article class="card carousel-slide">
+            <img class="card-image" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Creative">
+            <div class="card-content">
+              <div class="category-tag">Art & Design</div>
+              <h3 style="margin-bottom: 10px; font-size: 1.25rem;">The Power of Visual Storytelling</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">By Bermet K. - Read time: 4 mins</p>
+            </div>
+          </article>
+          <!-- Slide 4 -->
+          <article class="card carousel-slide">
+            <img class="card-image" src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Study tips">
+            <div class="card-content">
+              <div class="category-tag">Education</div>
+              <h3 style="margin-bottom: 10px; font-size: 1.25rem;">Balancing Exams and Mental Health</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">By Saikal B. - Read time: 6 mins</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Opportunities & Events (Filter) -->
+  <section class="section" id="events">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <div class="badge">Get Involved</div>
+        <h2 class="section-title">Opportunities & Events</h2>
+      </div>
+      <div class="filter-container" id="filter-btn-container" style="justify-content: center;">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tech">Tech</button>
+        <button class="filter-btn" data-filter="career">Careers</button>
+        <button class="filter-btn" data-filter="social">Social</button>
+      </div>
+      <div class="content-grid" id="events-grid">
+        <!-- Event 1 -->
+        <article class="card event-item" data-category="tech">
+          <div class="card-content">
+            <div class="category-tag">Tech</div>
+            <h3 style="margin-bottom: 10px;">Women in IT Hackathon</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;"><i class="far fa-calendar-alt" style="margin-right: 8px;"></i> March 25, 2026</p>
+            <p style="font-size: 0.95rem; margin-bottom: 1rem; color: #ccc;">Join AUCA's annual hackathon designed for women coders. Build solutions addressing campus issues.</p>
+            <a href="#" class="text-primary" style="text-decoration: none; font-weight: 600; font-size: 0.9rem;">Register Now <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+          </div>
+        </article>
+        <!-- Event 2 -->
+        <article class="card event-item" data-category="career">
+          <div class="card-content">
+            <div class="category-tag">Careers</div>
+            <h3 style="margin-bottom: 10px;">Resume Workshop with KPMG</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;"><i class="far fa-calendar-alt" style="margin-right: 8px;"></i> April 2, 2026</p>
+            <p style="font-size: 0.95rem; margin-bottom: 1rem; color: #ccc;">Prepare for graduation with expert advice on CVs and interview skills from top recruiters.</p>
+            <a href="#" class="text-primary" style="text-decoration: none; font-weight: 600; font-size: 0.9rem;">Register Now <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+          </div>
+        </article>
+        <!-- Event 3 -->
+        <article class="card event-item" data-category="social">
+          <div class="card-content">
+            <div class="category-tag">Social</div>
+            <h3 style="margin-bottom: 10px;">Spring Networking Mixer</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;"><i class="far fa-calendar-alt" style="margin-right: 8px;"></i> April 10, 2026</p>
+            <p style="font-size: 0.95rem; margin-bottom: 1rem; color: #ccc;">Meet alumni and peers across different departments in a relaxed coffee gathering.</p>
+            <a href="#" class="text-primary" style="text-decoration: none; font-weight: 600; font-size: 0.9rem;">View Details <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Community Stories -->
+  <section class="section" id="stories" style="background: url('https://www.transparenttextures.com/patterns/dark-matter.png') var(--bg-surface-elevated);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <div class="badge">Inspiring Voices</div>
+        <h2 class="section-title text-gradient">Community Stories</h2>
+      </div>
+      <div class="content-grid">
+        <div class="card story-card">
+          <div class="story-user">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="avatar">
+            <div>
+              <div style="font-weight: 700;">Alina K.</div>
+              <div style="color: var(--text-muted); font-size: 0.85rem;">Software Eng, Senior</div>
+            </div>
+          </div>
+          <p style="font-size: 1rem; font-style: italic; color: #ccc;">"The mentorship program I found through this platform landed me my first internship. Knowing there are other women pushing boundaries made all the difference."</p>
+        </div>
+        <div class="card story-card">
+          <div class="story-user">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User" class="avatar">
+            <div>
+              <div style="font-weight: 700;">Aisuluu D.</div>
+              <div style="color: var(--text-muted); font-size: 0.85rem;">Business Admin, Junior</div>
+            </div>
+          </div>
+          <p style="font-size: 1rem; font-style: italic; color: #ccc;">"Starting my own small business seemed impossible, but attending the Women.kg startup incubator events demystified the whole process for me."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Resources Section Placeholder -->
+  <section class="section" id="resources">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, rgba(244,123,171,0.2) 0%, rgba(20,21,31,1) 100%); border-radius: var(--radius-lg); padding: 4rem; text-align: center; border: 1px solid var(--border-subtle);">
+        <h2 class="section-title">Essential Resources</h2>
+        <p class="section-subtitle" style="margin: 1rem auto 2rem;">Download our campus safety guides, mental health directories, and career handbooks specifically curated for you.</p>
+        <button class="btn btn-primary"><i class="fas fa-download" style="margin-right: 8px;"></i> Access Resource Hub</button>
+      </div>
+    </div>
+  </section>
+  <!-- Social Media Feed & Sign in -->
+  <section class="section" id="community">
+    <div class="container about-grid">
+      <!-- Registration/Login/Comment Placeholder -->
+      <div class="form-container">
+        <h2 style="font-size: 2rem; margin-bottom: 0.5rem;">Join the Conversation</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem;">Create an account to post stories, reply to threads, and register for events.</p>
+        
+        <form onsubmit="event.preventDefault(); alert('Registration functionality pending backend integration!');">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" class="form-control" placeholder="e.g. Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Student Email</label>
+            <input type="email" id="email" class="form-control" placeholder="example@auca.kg" required>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Sign Up</button>
+        </form>
+        
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
+          Already have an account? <a href="#" class="text-primary" style="text-decoration: none;">Login here</a>
+        </p>
+      </div>
+      <!-- Social Media Feed Placeholder -->
+      <div>
+        <h2 style="font-size: 1.8rem; margin-bottom: 1.5rem;">#WomenKG on Instagram</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div style="background: var(--bg-surface-elevated); border-radius: var(--radius-md); height: 180px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-subtle);">
+            <i class="fab fa-instagram" style="font-size: 2rem; color: var(--text-muted);"></i>
+          </div>
+          <div style="background: var(--bg-surface-elevated); border-radius: var(--radius-md); height: 180px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-subtle);">
+            <i class="fab fa-instagram" style="font-size: 2rem; color: var(--text-muted);"></i>
+          </div>
+          <div style="background: var(--bg-surface-elevated); border-radius: var(--radius-md); height: 180px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-subtle);">
+            <i class="fab fa-instagram" style="font-size: 2rem; color: var(--text-muted);"></i>
+          </div>
+          <div style="background: var(--bg-surface-elevated); border-radius: var(--radius-md); height: 180px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-subtle);">
+            <i class="fab fa-instagram" style="font-size: 2rem; color: var(--text-muted);"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col" style="grid-column: span 1.5;">
+          <a href="#" class="logo" style="margin-bottom: 1.5rem;">Women<span>.kg</span></a>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; max-width: 300px;">
+            A student-led initiative fostering leadership and community among women at the American University of Central Asia.
+          </p>
+          <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+            <a href="#" style="color: var(--text-muted); font-size: 1.2rem; transition: 0.3s;"><i class="fab fa-linkedin"></i></a>
+            <a href="#" style="color: var(--text-muted); font-size: 1.2rem; transition: 0.3s;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: var(--text-muted); font-size: 1.2rem; transition: 0.3s;"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#blog">Featured Stories</a></li>
+            <li><a href="#events">Opportunities</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        &copy; 2026 Women.kg Platform. Designed for AUCA students. Built by AI.
+      </div>
+    </div>
+  </footer>
+  <!-- Vanilla JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      
+      // 1. Mobile Menu Toggle
+      const hamburger = document.getElementById('hamburger');
+      const navLinks = document.getElementById('nav-links');
+      
+      if(hamburger) {
+        hamburger.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+          const icon = hamburger.querySelector('i');
+          if(navLinks.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+          } else {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          }
+        });
+      }
+      // Close menu when clicking a link (mobile)
+      const links = document.querySelectorAll('.nav-links a');
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+          const icon = hamburger.querySelector('i');
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+        });
+      });
+      // 2. Simple Carousel Logic
+      const track = document.getElementById('carousel-track');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      
+      if(track && prevBtn && nextBtn) {
+        let currentIndex = 0;
+        const slides = Array.from(track.children);
+        
+        // Calculate amount to scroll
+        const getSlideScrollWidth = () => {
+          return slides[0].getBoundingClientRect().width + 32; // card width + 2rem gap
+        };
+        const updateCarousel = () => {
+          const scrollAmount = currentIndex * getSlideScrollWidth();
+          track.style.transform = `translateX(-${scrollAmount}px)`;
+        };
+        // Resize handler to reset carousel
+        window.addEventListener('resize', () => {
+          currentIndex = 0;
+          updateCarousel();
+        });
+        nextBtn.addEventListener('click', () => {
+          // Adjust max index based on screen size (roughly)
+          let maxIndex = slides.length - 1;
+          if (window.innerWidth > 1024) maxIndex -= 2; // Show 3 items roughly
+          else if (window.innerWidth > 768) maxIndex -= 1; // Show 2 items roughly
+          
+          if (currentIndex < maxIndex) {
+            currentIndex++;
+            updateCarousel();
+          }
+        });
+        prevBtn.addEventListener('click', () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+          }
+        });
+      }
+      // 3. Event filtering logic
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const eventItems = document.querySelectorAll('.event-item');
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Remove active class from all buttons
+          filterBtns.forEach(b => b.classList.remove('active'));
+          // Add active class to clicked button
+          btn.classList.add('active');
+          
+          const filterValue = btn.getAttribute('data-filter');
+          
+          eventItems.forEach(item => {
+            if(filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+              item.style.display = 'flex';
+              // add a tiny animation reflow
+              item.style.opacity = '0';
+              setTimeout(() => { item.style.transition = 'opacity 0.3s ease'; item.style.opacity = '1'; }, 10);
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+      // Sticky Header background opacity effect on scroll
+      const navbar = document.querySelector('.navbar');
+      window.addEventListener('scroll', () => {
+        if(window.scrollY > 50) {
+          navbar.style.background = 'rgba(10, 11, 16, 0.95)';
+          navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.5)';
+        } else {
+          navbar.style.background = 'var(--glass-bg)';
+          navbar.style.boxShadow = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
