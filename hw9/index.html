@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 9</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <button class="buttonMenu fa fa-bars"></button>
+    <div class="fa fa-search"></div>
+    <img src='https://cdn.imgchest.com/files/p7bwcdqap7n.png' style='position: absolute; top:0; left:0;z-index:-1'>
+    <div class="container">
+      <div class="box1">1</div>
+      <div class="box2">2</div>
+      <div class="box3">
+            <ul>
+                  <li class="world">In the world</li>
+                  <li class="society">Society</li>
+                  <li class="economy">Economy</li>
+                  <li class="sport">Sport</li>
+                  <li class="worldcup">World Cup 2022</li>
+                  <li class="safety">Safety</li>
+                  <li class="incidents">Incidents</li>
+                  <li class="nopolitics">no politics</li>
+            </ul>
+      </div>
+      <div class="box4">4</div>
+      <div class="box5">5</div>
+      <div class="box6">6</div>
+      <div class="box7">7</div>
+      <div class="box8">8</div>
+      </div>
+      <script>
+            const buttonMenu = document.querySelector('.buttonMenu')
+            const menu = document.querySelector('.box3')
+            buttonMenu.addEventListener('click', () => {
+            menu.classList.toggle('mobileMenu')
+            })
+  </script>
+  </body>
+</html>
